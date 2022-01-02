@@ -1,0 +1,61 @@
+.background{
+        
+    /* background-image:url("../images/55.jpg") ; */
+   
+     background-image: url("https://images.pexels.com/photos/1144673/pexels-photo-1144673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+     width: 100%;   
+     height: 80vh;
+     background-position:center center;
+    color:white;
+   
+   }
+ 
+ /***********imag profile User***********/
+ .imageprofile {
+  align-items: center;
+   height: 200px;
+   width: 200px;
+   border-radius: 70%;
+   margin-left:600px;
+   margin-bottom: 10px;
+  
+ }
+ .information{
+   margin-top: 30%;
+   font-size: 25px;
+   font-weight: bolder;
+   color: rgb(221, 216, 216);
+ 
+ }
+ 
+   /********Section APi style image background*********/
+   .apibackground{
+     position: relative;
+     /* background-image:url("../images/h.jpeg") ; */
+     background-size: cover;
+     width: 100%;   
+      height: 80vh;
+     background-position:center center;
+    color:white;
+   }
+ 
+ 
+   @media screen and (max-width:768px){
+     .imageprofile {
+       align-items: center;
+        height: 150px;
+        width: 150px;
+        border-radius: 70%;
+        margin-left:140px;
+        margin-bottom: 0px;
+       
+      }
+      .information{
+       margin-top: 0%;
+       font-size: 25px;
+       font-weight: bolder;
+       color: rgb(221, 216, 216);
+     
+     }
+   }
